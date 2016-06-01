@@ -1,6 +1,18 @@
 ﻿<%@ Page Title="Contact Me" Language="C#" MasterPageFile="~/Contact.Master" AutoEventWireup="true" CodeBehind="Contact.aspx.cs" Inherits="Assignment1.Contact1" %>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
+
+
+     <div runat="server" id="alertLabel">
+
+        <div class="alert alert-success alert-dismissible" role="alert">
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <strong>Submitted!</strong> Thank you for your time. I will get back to you as soon as I can.
+        </div>
+
+     </div>
+
+
     <div class="container">
         <div class="row">
             <div class="col-md-offset-3 col-md-6">
@@ -50,7 +62,7 @@
 
                     <a class="btn btn-danger btn-lg" id="CancelButton" href="Default.aspx">Cancel</a>
                     <asp:Button runat="server" CssClass="btn btn-primary btn-lg" ID="SendButton" Text="Send" OnClick="SendButton_Click" />
-                    
+                        
 
                 </div>
 

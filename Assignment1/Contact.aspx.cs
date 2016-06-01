@@ -11,13 +11,13 @@ namespace Assignment1
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            alertLabel.Visible = false;
         }
 
         protected void SendButton_Click(object sender, EventArgs e)
         {
-            //Displays popup and returns to home page
-            Response.Redirect("Default.aspx");
+            //add email support here
+            alertLabel.Visible = true;
         }
     }
 }

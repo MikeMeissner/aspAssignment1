@@ -20,6 +20,5 @@
         
         <img src="Assets\HTML5_logo.png" alt="HTML 5 Logo" style="width:200px;height:240px;">
         <img src="Assets\java_logo.png" alt="Java Logo" style="width:200px;height:200px;">
-        <img src="Assets\nodejs_logo.png" alt="Nodejs Logo" style="width:200px;height:100px;">
 
 </asp:Content>

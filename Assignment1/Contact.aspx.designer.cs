@@ -13,6 +13,15 @@ namespace Assignment1 {
     public partial class Contact1 {
         
         /// <summary>
+        /// alertLabel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl alertLabel;
+        
+        /// <summary>
         /// FirstNameTextBox control.
         /// </summary>
         /// <remarks>
