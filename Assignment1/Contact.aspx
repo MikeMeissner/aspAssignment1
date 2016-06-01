@@ -48,8 +48,9 @@
 
                 <div class="text-right">
 
-                    <a class="btn btn-warning btn-lg" id="CancelButton" href="Default.aspx">Cancel</a>
+                    <a class="btn btn-danger btn-lg" id="CancelButton" href="Default.aspx">Cancel</a>
                     <asp:Button runat="server" CssClass="btn btn-primary btn-lg" ID="SendButton" Text="Send" OnClick="SendButton_Click" />
+                    
 
                 </div>
 

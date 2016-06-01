@@ -14,12 +14,6 @@ namespace Assignment1
 
         }
 
-        protected void CancelButton_Click(object sender, EventArgs e)
-        {
-            //Cancel button returns to home page
-            Response.Redirect("Default.aspx");
-        }
-
         protected void SendButton_Click(object sender, EventArgs e)
         {
             //Displays popup and returns to home page

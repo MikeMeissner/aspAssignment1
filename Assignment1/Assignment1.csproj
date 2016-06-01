@@ -70,6 +70,9 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\HTML5_logo.png" />
+    <Content Include="Assets\java_logo.png" />
+    <Content Include="Assets\nodejs_logo.png" />
     <Content Include="packages.config" />
     <Content Include="Scripts\jquery-2.2.3.min.map" />
     <None Include="Web.Debug.config">
@@ -175,9 +178,7 @@
       <DependentUpon>NavBar.ascx</DependentUpon>
     </Compile>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Assets\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

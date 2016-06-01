@@ -23,10 +23,16 @@
     <form id="form1" runat="server">
         <bs3:NavBar ID="MainNav" runat="server"></bs3:NavBar>
 
-    <div>
+     <div class="container">
+     <div class="row">
+     <div class="col-md-offset-3 col-md-6">
+
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-        
+       
         </asp:ContentPlaceHolder>
+
+    </div>
+    </div>
     </div>
     </form>
 
