@@ -1,4 +1,13 @@
 ﻿<%@ Page Title="About Me" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="About.aspx.cs" Inherits="Assignment1.About" %>
+
+<!--
+ * Contact Page Backend
+ * Michael Meissner
+ * aspAssignment1
+ * 
+ * This page handles the click event for the submit button
+-->
+
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
     <h1>About Me</h1>

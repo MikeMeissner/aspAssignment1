@@ -1,4 +1,13 @@
-﻿using System;
+﻿/*
+ * Default page
+ * Michael Meissner
+ * aspAssignment1
+ * 
+ * Default page displays greeting information
+ * 
+ */
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;

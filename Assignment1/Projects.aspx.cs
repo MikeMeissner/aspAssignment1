@@ -1,4 +1,13 @@
-﻿using System;
+﻿/*
+ * Projects page
+ * Michael Meissner
+ * aspAssignment1
+ * 
+ * Project page displays a list of my finished projects
+ * 
+ */
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;

@@ -1,4 +1,13 @@
-﻿using System;
+﻿/*
+ * About Page 
+ * Michael Meissner
+ * aspAssignment1
+ * 
+ * About page display information about me
+ * 
+ */
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
