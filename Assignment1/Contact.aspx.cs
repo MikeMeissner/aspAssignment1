@@ -1,4 +1,13 @@
-﻿using System;
+﻿/*
+ * Contact Page Backend
+ * Michael Meissner
+ * aspAssignment1
+ * 
+ * This page handles the click event for the submit button
+ * 
+ */
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;

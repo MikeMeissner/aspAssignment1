@@ -2,7 +2,7 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
 
-
+    <!-- Displays the alert once the submit button is clicked the form is filled out correctly (starts hidden) -->
      <div runat="server" id="alertLabel">
 
         <div class="alert alert-success alert-dismissible" role="alert">
@@ -12,12 +12,13 @@
 
      </div>
 
-
     <div class="container">
         <div class="row">
             <div class="col-md-offset-3 col-md-6">
+
                 <h1>Contact Me</h1>
 
+                <!-- Contact form including validation -->
                 <div class="form-group">
 
                     <label class="control-label" for="FirstNameTextBox">First Name</label>
@@ -60,9 +61,9 @@
 
                 <div class="text-right">
 
+                    <!-- Submit and cancel button for the form -->
                     <a class="btn btn-danger btn-lg" id="CancelButton" href="Default.aspx">Cancel</a>
                     <asp:Button runat="server" CssClass="btn btn-primary btn-lg" ID="SendButton" Text="Send" OnClick="SendButton_Click" />
-                        
 
                 </div>
 
